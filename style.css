@@ -1,45 +1,54 @@
 body{
-    font-family: arial;
-    background: #eee;
+		font-family: arial;
+		background: #eee;
 }
 
 table td, table th{
-    padding: 5px;
+	padding: 5px;
 }
 
 
 label {
-    font-weight: bold;
+		font-weight: bold;
+}
+input[type=submit]{
+	background: #008000;
+		color: #fff;
+		cursor: pointer;
+		padding: 10px;
+		font-size: 15px;
 }
 
-input[type=submit]{
-    cursor: pointer;
-    padding: 10px;
-    border: 1px solid #eee;
-    background: #efefef;
-    color: #363636;
-    font-size: 15px;
-}
 input[type=submit]:hover{
-    background: green;
-    color: #fff;
+		cursor: pointer;
+		padding: 10px;
+		background: #004800;
+		color: #fff;
+		font-size: 15px;
 }
 
 .pizza{
-    width: 150px;
-    background: #eee;
-    margin: 10px;
-    padding: 10px;
-    display: inline-block;
+		width: 150px;
+		background: #eee;
+		margin: 10px;
+		padding: 10px;
+		display: inline-block;
+}
+.pizza:hover{
+		width: 150px;
+		background: #FFEC6D;
+		margin: 10px;
+		padding: 10px;
+		display: inline-block;
 }
 
 .pizza img{
-    width: 150px;
+		width: 150px;
 }
 
 .page-container{
-    width: 780px;
-    padding: 10px;
-    margin: auto;
-    background: #fff;
+		width: 780px;
+		padding: 10px;
+		margin: auto;
+		background: #fff;
 }

@@ -1,3 +1,4 @@
+<link rel="icon" type="image/jpg" href="img/doge.jpg">
 <?php
 
 require_once('config.php');
@@ -87,7 +88,7 @@ if(array_key_exists('inSubmit', $_POST))
         <label>
             <div class="pizza">
                 <img src="img/ham.jpg" alt="Ham and Pineapple Pizza">
-                <p>Ham and Pineapple</p>
+                <p>Ham and Pineapple, don't be fooled by the appearance</p>
                 <input type="radio" value="Ham and Pineapple Pizza" name="inPizza">
             </div>
         </label>
@@ -101,7 +102,7 @@ if(array_key_exists('inSubmit', $_POST))
         <label>
             <div class="pizza">
                 <img src="img/pepperoni.jpg" alt="Pepperoni Pizza">
-                <p>Pepperono Pizza</p>
+                <p>Pepperono Pizza big boss</p>
                 <input type="radio" value="Pepperoni Pizza" name="inPizza">
             </div>
         </label>
@@ -134,7 +135,7 @@ if(array_key_exists('inSubmit', $_POST))
         </tbody>
     </table>
 
-
+<br>
 
     <div id="demo"></div>
     <script>
