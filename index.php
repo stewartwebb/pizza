@@ -52,11 +52,12 @@ if(array_key_exists('inSubmit', $_POST))
         <? if($bGucci != 'derp') { if($bGucci){ echo '<p>SAVED ORDER</p>'; } else { echo '<p>FAILED TO SAVE</p>'; } } ?>
         <h1>Do you want pizza?</h1>
         <p style="color: red">This site <strong>will</strong> steal your IP address.</p>
-        <p>You will receive one half of a pizza. You may not get the type of pizza you selected. Please don't hack me.</p>
+        <p>You will receive one half of a pizza. You may not get the type of pizza you selected. Please hack me.</p>
         <div>
             <label for="inName">Name</label>
             <input type="text" name="inName" placeholder="Name">
         </div>
+				<br />
         <label>
             <div class="pizza">
                 <img src="img/bbq.jpg" alt="BBQ Chicken Pizza">
@@ -113,8 +114,10 @@ if(array_key_exists('inSubmit', $_POST))
                 <input type="radio" value="Plain Pizza" name="inPizza">
             </div>
         </label>
+				<br />
         <input type="submit" value="Order" name="inSubmit">
     </form>
+		<br />
     <h3>Today's orders</h3>
     <table>
         <thead>
