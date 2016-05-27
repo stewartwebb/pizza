@@ -53,10 +53,6 @@ if(array_key_exists('inSubmit', $_POST))
         <h1>Do you want pizza?</h1>
         <p style="color: red">This site <strong>will</strong> steal your IP address.</p>
         <p>You will receive one half of a pizza. You may not get the type of pizza you selected. Please hack me.</p>
-        <div>
-            <label for="inName">Name</label>
-            <input type="text" name="inName" placeholder="Name">
-        </div>
 				<br />
         <label>
             <div class="pizza">
@@ -114,8 +110,13 @@ if(array_key_exists('inSubmit', $_POST))
                 <input type="radio" value="Plain Pizza" name="inPizza">
             </div>
         </label>
-				<br />
+				<br><br />
+				<div>
+						<label for="inName">Name:</label>
+						<input type="text" name="inName" placeholder="Insert name skrub">
+
         <input type="submit" value="Order" name="inSubmit">
+			</div>
     </form>
 		<br />
     <h3>Today's orders</h3>
